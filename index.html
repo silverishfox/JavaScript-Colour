@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="colourMe">No colour selected yet</div>
+    <ul id="ulEv">
+      <li>Red</li>
+      <li>Orange</li>
+      <li>Pink</li>
+      <li>Crimson</li>
+      <li>Deeppink</li>
+      <li>Floralwhite</li>
+      <li>Greenyellow</li>
+      <li>Indianred</li>
+      <li>Lightsalmon</li>
+    </ul>
+    <label for="uInput">Type a colour <br><em>name</em>(white), <em>#</em>(#ffffff), <em>rgb</em>(	rgb(255,255,255)) etc..</label>
+    <input type="text" id="uInput" value="">
+    <div>
+      <label for="colourPicker">Select a Colour</label>
+      <input type="color" id="colourPicker" name="colourPicker" value="#ff0000">
+    </div>
+    <div>
+      <input type="range" id="rangeInput1" name="range1" min="0" max="255">
+      <label for="rangeInput1">R</label><span id="rangeOutput1"></span>
+      <input type="range" id="rangeInput2" name="range1" min="0" max="255">
+      <label for="rangeInput2">G</label><span id="rangeOutput1"></span>
+      <input type="range" id="rangeInput3" name="range1" min="0" max="255">
+      <label for="rangeInput3">B</label><span id="rangeOutput1"></span>
+    </div>
+  <script src="js/script.js"></script>
+  </body>
+</html>

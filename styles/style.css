@@ -1,0 +1,26 @@
+body{
+  text-align: center;
+  font-size: 80px;
+  font-family: arial;
+  font-weight: bolder;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #444;
+  color: white;
+}
+li{
+  display: inline;
+  padding: 5px 25px 5px 25px;
+  list-style-type: none;
+  font-size: 20px;
+  border: 1px solid white;
+  color: white;
+}
+label{
+  font-size: 40px;
+}
+#colourPicker{
+  width: 100px;
+  height: 30px;
+  background-color: white;
+}
